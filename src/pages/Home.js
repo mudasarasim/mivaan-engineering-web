@@ -233,29 +233,6 @@ const Home = () => {
         </Swiper>
       </section>
 
-            {/* Locations Section */}
-      <section className="location-section position-relative text-start text-md-start">
-        <div className="container py-5">
-          <h2 className="text-teal fw-bold">LOCATIONS</h2>
-          <p className="text-muted">Our offices and branches</p>
-        </div>
-        <div className="map-container">
-          <img src="/img/map.jpg" alt="World Map" className="img-fluid w-100" />
-          {/* Map pins - example pins, you can adjust the position manually */}
-          <span className="map-pin" style={{ top: '28%', left: '23%' }}></span>
-          <span className="map-pin" style={{ top: '34%', left: '30%' }}></span>
-          <span className="map-pin" style={{ top: '41%', left: '35%' }}></span>
-          <span className="map-pin" style={{ top: '36%', left: '52%' }}></span>
-          <span className="map-pin" style={{ top: '42%', left: '62%' }}></span>
-          <span className="map-pin" style={{ top: '37%', left: '68%' }}></span>
-          <span className="map-pin" style={{ top: '47%', left: '70%' }}></span>
-          <span className="map-pin" style={{ top: '49%', left: '73%' }}></span>
-          <span className="map-pin" style={{ top: '45%', left: '77%' }}></span>
-          <span className="map-pin" style={{ top: '38%', left: '80%' }}></span>
-          {/* Add more pins as needed */}
-        </div>
-      </section>
-
     </>
 
 
