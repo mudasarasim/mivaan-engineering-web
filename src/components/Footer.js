@@ -14,7 +14,7 @@ const Footer = () => {
             <h6 className="mt-4 text-uppercase">Connect With Us</h6>
             <div className="d-flex gap-3 mt-2">
               <a href="#"><FaLinkedin size={24} /></a>
-              <a href="#"><FaYoutube size={24} /></a>
+              {/* <a href="#"><FaYoutube size={24} /></a> */}
             </div>
           </Col>
 
