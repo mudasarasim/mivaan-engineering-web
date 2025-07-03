@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm px-4">
       <Link className="navbar-brand d-flex align-items-center" to="/">
-        <h2>Mivaan Engineering</h2>
+        <h2>Mivaan Group</h2>
       </Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
         <span className="navbar-toggler-icon"></span>
