@@ -7,8 +7,8 @@ import { FaWhatsapp } from 'react-icons/fa';
 const Navbar = () => {
   const links = [
     { name: "Home", path: "/" },
-    { name: "Mivaan General", path: "/mivaan-general" },
-    { name: "Mivaan Contracting", path: "/mivaan-contracting" },
+    { name: "Mivaan General", path: "/MivaanGeneral" },
+    { name: "Mivaan Engineering", path: "/MivaanEngineering" },
     { name: "Projects", path: "/projects" },
     { name: "Contact Us", path: "/contact" }
   ];
