@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
+import { Link } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import './Home.css';
@@ -43,17 +45,17 @@ const Home = () => {
           <div className="col-md-8">
             <h2 className="text-teal fw-bold">WELCOME</h2>
             <p>
-              ACC (Arabian Construction Company) is a premier, leading construction contractor with a portfolio that includes
-              some of the Middle East, Africa and India’s most iconic and sophisticated construction masterpieces.
+              Mivaan Group is a diversified conglomerate headquartered in Abu Dhabi, United Arab Emirates with strategic operations across engineering, construction, contracting, consultancy and real estate services. Since its inception, Mivaan Group has positioned itself as a trusted name in delivering innovative, reliable, and value-driven solutions in the infrastructure and development sectors. 
             </p>
             <p>
-              For more than 50 years, we have shaped the skylines of major cities, set the infrastructure for large industrial
-              facilities and built landmark projects in healthcare, hospitality, commercial and residential. We focus on
+              Guided by a strong leadership team and powered by a skilled workforce, Mivaan Group has steadily expanded its portfolio to include multiple business verticals that support the full lifecycle of construction and development projects from conceptual design and engineering to execution, operations, and post-completion servicesesidential. We focus on
               delivering quality while maintaining the highest health and safety standards.
             </p>
-            <p className="fw-semibold text-teal">Find out more about us</p>
+            <Button as={Link} to="/about" className="fw-semibold text-teal" style={{backgroundColor:'#286961', color:'white'}}>
+              Find out more about us
+            </Button>
           </div>
-          <div className="col-md-4">
+          {/* <div className="col-md-4">
             <div className="bg-teal text-white p-3">
               <h5 className="mb-3">FACTS & FIGURES</h5>
             </div>
@@ -71,7 +73,7 @@ const Home = () => {
                 <strong>15,000+</strong> <span>Workforce</span>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </section>
 
