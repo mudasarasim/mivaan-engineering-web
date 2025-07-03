@@ -5,7 +5,7 @@ import './Contact.css';
 const MivaanGeneral = () => {
   return (
     <>
-       <div className="ms-breadcrumb m-b-5">
+      <div className="ms-breadcrumb m-b-5">
         <div className="container-fluid">
           <div className="row">
             <div className="col-12">
@@ -28,6 +28,74 @@ const MivaanGeneral = () => {
           </div>
         </div>
       </div>
+
+      {/* About Mivaan General */}
+      <section className="container my-3 ">
+        <div className="row">
+          <div className="col"> 
+            <h2 className="text-teal fw-bold mb-3">Mivaan General Contracting</h2>
+            <p>
+              Mivaan General Contracting – L.L.C – S.P.C is a professionally managed engineering and contracting firm based in Abu Dhabi, UAE. We specialize in delivering high-quality construction and infrastructure solutions across a range of sectors including residential, commercial, industrial, and infrastructure projects. We pride ourselves on offering end-to-end construction services that adhere to international standards, local regulations, and sustainable practices.
+            </p>
+          </div>
+        </div>
+        
+        {/* Services Offered */}
+        <div className="row my-4">
+          <div className="col-md-4">
+            <div className="bg-teal text-white p-3">
+              <h5 className="mb-3">Services Offered</h5>
+            </div>
+            <ul className="ps-4 pt-3 text-dark">
+              <li>General Construction Contracting</li>
+              <li>Civil & Structural Works</li>
+              <li>Villas, Residential, and Commercial Building Construction</li>
+              <li>Infrastructure & Utility Projects</li>
+              <li>Renovation & Refurbishment Works</li>
+              <li>Fit-out and Interior Works</li>
+              <li>NOC Approvals & Permitting Coordination</li>
+              <li>Manpower Supply for Construction Trades</li>
+            </ul>
+          </div>
+          
+          {/* Vision */}
+          <div className="col-md-4">
+            <div className="bg-teal text-white p-3">
+              <h5 className="mb-3">Core Values</h5>
+            </div>
+            <ul className="ps-4 pt-3 text-dark">
+              <li><strong>Integrity</strong> – Transparent and ethical business practices</li>
+              <li><strong>Quality</strong> – Commitment to excellence in workmanship</li>
+              <li><strong>Safety </strong>– Zero-compromise on HSE standards</li>
+              <li><strong>Client Satisfaction </strong>– Exceeding expectations through tailored solutions</li>
+            </ul>
+          </div>
+
+          {/* Strengths */}
+          <div className="col-md-4">
+            <div className="bg-teal text-white p-3">
+              <h5 className="mb-3">Our Strengths</h5>
+            </div>
+            <ul className="ps-4 pt-3 text-dark">
+              <li>Skilled Workforce & Technical Expertise</li>
+              <li>Local Market Knowledge & Compliance with UAE Regulations</li>
+              <li>Timely Project Execution</li>
+              <li>Approved Vendor for Various Government & Private Clients</li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Health, Safety & Environment (HSE) */}
+        <div className="row">
+          <div className="col">
+            <h2 className="text-teal fw-bold">Health, Safety & Environment (HSE)</h2>
+            <p>
+              We are committed to creating and maintaining a safe working environment for our employees, partners, and clients. Mivaan strictly adheres to UAE Labor Laws, Abu Dhabi Municipality (ADM), and other regulating bodies.
+            </p>
+          </div>
+        </div>
+      </section>
+
     </>
   );
 };
