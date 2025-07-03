@@ -42,7 +42,7 @@ const Home = () => {
       {/* Welcome Section */}
       <section className="container my-5">
         <div className="row">
-          <div className="col-md-8">
+          <div className="col">
             <h2 className="text-teal fw-bold">WELCOME</h2>
             <p>
               Mivaan Group is a diversified conglomerate headquartered in Abu Dhabi, United Arab Emirates with strategic operations across engineering, construction, contracting, consultancy and real estate services. Since its inception, Mivaan Group has positioned itself as a trusted name in delivering innovative, reliable, and value-driven solutions in the infrastructure and development sectors. 
@@ -51,10 +51,32 @@ const Home = () => {
               Guided by a strong leadership team and powered by a skilled workforce, Mivaan Group has steadily expanded its portfolio to include multiple business verticals that support the full lifecycle of construction and development projects from conceptual design and engineering to execution, operations, and post-completion servicesesidential. We focus on
               delivering quality while maintaining the highest health and safety standards.
             </p>
-            <Button as={Link} to="/about" className="fw-semibold text-teal" style={{backgroundColor:'#286961', color:'white'}}>
+            {/* <Button as={Link} to="/about" className="fw-semibold text-teal" style={{backgroundColor:'#286961', color:'white'}}>
               Find out more about us
-            </Button>
+            </Button>  */}
           </div>
+
+          {/* Mivaan General Contracting */}
+          <div className="row my-5">
+            <div className="col"> 
+              <h2 className="text-teal fw-bold mb-3">Mivaan General Contracting</h2>
+              <p>
+                Mivaan General Contracting – L.L.C – S.P.C is a professionally managed engineering and contracting firm based in Abu  Dhabi, UAE. We specialize in delivering high-quality construction and infrastructure solutions across a range of sectors   including residential, commercial, industrial, and infrastructure projects. We pride ourselves on offering end-to-end   construction services that adhere to international standards, local regulations, and sustainable practices.
+              </p>
+            </div>
+        </div>
+
+          {/* Mivaan Engineering  */}
+        <div className="row ">
+          <div className="col"> 
+            <h2 className="text-teal fw-bold mb-3">Mivaan Engineering</h2>
+            <p>
+              Mivaan Engineering is a professional Engineering & Consultancy services firm based in Abu Dhabi, UAE. We specialize in delivering Innovative, Sustainable, and Technical solutions across the Oil & Gas, Infrastructure and Industrial Sectors. Our mission is to provide high-quality Consultancy, Engineering Design, and Project Management services that exceed client expectations and adhere to the highest standards of Safety and Quality
+            </p>
+          </div>
+        </div>
+
+
           {/* <div className="col-md-4">
             <div className="bg-teal text-white p-3">
               <h5 className="mb-3">FACTS & FIGURES</h5>
@@ -77,8 +99,11 @@ const Home = () => {
         </div>
       </section>
 
+
+
+
       {/* Featured Project Section */}
-      <section className="bg-light py-5">
+      {/* <section className="bg-light py-5">
         <div className="container d-flex flex-column flex-md-row align-items-center gap-4">
           <div className="flex-grow-1">
             <h4 className="text-teal fw-bold">THE ADDRESS SKY VIEW – MAIN BRIDGE LIFT</h4>
@@ -100,12 +125,12 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
 
 
       {/* Projects Slider */}
-      <section className="container my-5">
+      {/* <section className="container my-5">
         <h2 className="text-teal fw-bold mb-4">PROJECTS</h2>
         <Swiper
           modules={[Navigation]}
@@ -117,7 +142,7 @@ const Home = () => {
             992: { slidesPerView: 3 },
           }}
         >
-          {/* Slide 1 */}
+          Slide 1
           <SwiperSlide>
             <div className="card border-0">
               <div className="position-relative">
@@ -136,7 +161,7 @@ const Home = () => {
             </div>
           </SwiperSlide>
 
-          {/* Slide 2 */}
+          Slide 2
           <SwiperSlide>
             <div className="card border-0">
               <div className="position-relative">
@@ -155,7 +180,7 @@ const Home = () => {
             </div>
           </SwiperSlide>
 
-          {/* Slide 3 */}
+          Slide 3
           <SwiperSlide>
             <div className="card border-0">
               <div className="position-relative">
@@ -174,7 +199,7 @@ const Home = () => {
             </div>
           </SwiperSlide>
 
-          {/* Slide 1 */}
+          Slide 1
           <SwiperSlide>
             <div className="card border-0">
               <div className="position-relative">
@@ -193,7 +218,7 @@ const Home = () => {
             </div>
           </SwiperSlide>
 
-          {/* Slide 2 */}
+          Slide 2
           <SwiperSlide>
             <div className="card border-0">
               <div className="position-relative">
@@ -212,7 +237,7 @@ const Home = () => {
             </div>
           </SwiperSlide>
 
-          {/* Slide 3 */}
+          Slide 3
           <SwiperSlide>
             <div className="card border-0">
               <div className="position-relative">
@@ -230,10 +255,8 @@ const Home = () => {
               </p>
             </div>
           </SwiperSlide>
-
-          {/* Add more slides as needed */}
-        </Swiper>
-      </section>
+        </Swiper> 
+      </section>*/}
 
     </>
 
