@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const Navbar = () => {
   const links = [
@@ -31,6 +32,15 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+        <a
+          href="https://wa.me/971567320392"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-success ms-lg-3 d-flex align-items-center"
+        >
+          <FaWhatsapp className="me-2" />
+          WhatsApp
+        </a>
       </div>
     </nav>
   );
