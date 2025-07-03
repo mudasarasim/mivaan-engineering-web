@@ -134,7 +134,7 @@ const ContactUs = () => {
             <div className="col-lg-6 mb-4">
               <div className="h-100 rounded-4 overflow-hidden shadow-lg">
                 <iframe
-                  src="https://maps.google.com/maps?q=-12.942227,-38.480291&z=15&output=embed"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3630.8216853370423!2d54.35481007481491!3d24.491634459917925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e67116a7e2e9f%3A0x401cc698d98d4dd5!2sDar%20al%20Salam%20Building!5e0!3m2!1sen!2sae!4v1751533452885!5m2!1sen!2sae"
                   width="100%"
                   height="100%"
                   frameBorder="0"
