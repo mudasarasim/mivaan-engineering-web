@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import MivaanGeneral from "./pages/MivaanGeneral";
-import MivaanContracting from "./pages/MivaanContracting";
+import MivaanEngineering from "./pages/MivaanEngineering";
 
 
 function App() {
@@ -17,8 +17,8 @@ function App() {
           <Route path="/" element={<Home />} />
            <Route path="/contact" element={<Contact />} />
            <Route path="/projects" element={<Projects />} />
-           <Route path="/mivaan-general" element={<MivaanGeneral />} />
-           <Route path="/mivaan-contracting" element={<MivaanContracting />} />         
+           <Route path="/MivaanGeneral" element={<MivaanGeneral />} />
+           <Route path="/MivaanEngineering" element={<MivaanEngineering />} />         
            
         </Routes>
       <Footer/>
