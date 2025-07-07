@@ -9,27 +9,27 @@ const Footer = () => {
     <footer className="footer bg-light text-dark pt-5">
       <Container>
         <Row>
-          <Col md={3}>
+          {/* <Col md={3}>
             <h6 className="text-uppercase">Contact Us</h6>
             <h6 className="mt-4 text-uppercase">Connect With Us</h6>
             <div className="d-flex gap-3 mt-2">
               <a href="#"><FaLinkedin size={24} /></a>
-              {/* <a href="#"><FaYoutube size={24} /></a> */}
+              <a href="#"><FaYoutube size={24} /></a>
             </div>
-          </Col>
+          </Col> */}
 
           <Col md={1}><div className="border-end h-100 mx-auto"></div></Col>
 
-          <Col md={3}>
+          {/* <Col md={3}>
             <h6 className="text-uppercase">About Us</h6>
             <p className="mb-1">Overview</p>
             <p className="mb-1">Our Timeline</p>
             <p className="mb-1">Awards and Recognition</p>
-          </Col>
+          </Col> */}
 
           <Col md={1}><div className="border-end h-100 mx-auto"></div></Col>
 
-          <Col md={2}>
+          {/* <Col md={2}>
             <h6 className="text-uppercase">Capabilities</h6>
             <p className="mb-1">News</p>
           </Col>
@@ -37,7 +37,7 @@ const Footer = () => {
           <Col md={2}>
             <h6 className="text-uppercase">Careers</h6>
             <p className="mb-1">Vendor Registration</p>
-          </Col>
+          </Col> */}
         </Row>
 
         <hr className="my-4" />
