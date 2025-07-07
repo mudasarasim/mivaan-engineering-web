@@ -44,10 +44,10 @@ const Home = () => {
         <div className="row">
           <div className="col">
             <h2 className="text-teal fw-bold">WELCOME</h2>
-            <p>
+            <p className='justify-text'>
               Mivaan Group is a diversified conglomerate headquartered in Abu Dhabi, United Arab Emirates with strategic operations across engineering, construction, contracting, consultancy and real estate services. Since its inception, Mivaan Group has positioned itself as a trusted name in delivering innovative, reliable, and value-driven solutions in the infrastructure and development sectors. 
             </p>
-            <p>
+            <p className='justify-text'>
               Guided by a strong leadership team and powered by a skilled workforce, Mivaan Group has steadily expanded its portfolio to include multiple business verticals that support the full lifecycle of construction and development projects from conceptual design and engineering to execution, operations, and post-completion servicesesidential. We focus on
               delivering quality while maintaining the highest health and safety standards.
             </p>
@@ -60,7 +60,7 @@ const Home = () => {
           <div className="row my-5">
             <div className="col"> 
               <h2 className="text-teal fw-bold mb-3">Mivaan General Contracting</h2>
-              <p>
+              <p className='justify-text'>
                 Mivaan General Contracting – L.L.C – S.P.C is a professionally managed engineering and contracting firm based in Abu  Dhabi, UAE. We specialize in delivering high-quality construction and infrastructure solutions across a range of sectors   including residential, commercial, industrial, and infrastructure projects. We pride ourselves on offering end-to-end   construction services that adhere to international standards, local regulations, and sustainable practices.
               </p>
             </div>
@@ -70,7 +70,7 @@ const Home = () => {
         <div className="row ">
           <div className="col"> 
             <h2 className="text-teal fw-bold mb-3">Mivaan Engineering</h2>
-            <p>
+            <p className='justify-text'>
               Mivaan Engineering is a professional Engineering & Consultancy services firm based in Abu Dhabi, UAE. We specialize in delivering Innovative, Sustainable, and Technical solutions across the Oil & Gas, Infrastructure and Industrial Sectors. Our mission is to provide high-quality Consultancy, Engineering Design, and Project Management services that exceed client expectations and adhere to the highest standards of Safety and Quality
             </p>
           </div>
@@ -130,7 +130,7 @@ const Home = () => {
 
 
       {/* Projects Slider */}
-      {/* <section className="container my-5">
+      <section className="container my-5">
         <h2 className="text-teal fw-bold mb-4">PROJECTS</h2>
         <Swiper
           modules={[Navigation]}
@@ -142,46 +142,103 @@ const Home = () => {
             992: { slidesPerView: 3 },
           }}
         >
-          Slide 1
+          {/* Slide 1 */}
           <SwiperSlide>
             <div className="card border-0">
               <div className="position-relative">
-                <img src="/img/back.jpg" alt="Administrative City" className="img-fluid rounded back" />
-                <div className="position-absolute top-0 start-0 bg-teal text-white px-2 py-1">
+                <img src="/img/Villa1.jpg" alt="Administrative City" className="img-fluid rounded back" />
+                {/* <div className="position-absolute top-0 start-0 bg-teal text-white px-2 py-1">
                   ABOMEY CALAVI – BENIN
-                </div>
-                <div className="view-overlay d-flex justify-content-center align-items-center">
+                </div> */}
+                {/* <div className="view-overlay d-flex justify-content-center align-items-center">
                   <span className="view-text">VIEW PROJECT</span>
-                </div>
+                </div> */}
               </div>
-              <div className="mt-2 fw-bold">ADMINISTRATIVE CITY, ABOMEY</div>
+              {/* <div className="mt-2 fw-bold">ADMINISTRATIVE CITY, ABOMEY</div>
               <p className="text-muted small">
                 16 low rise modern office buildings fully fitted out with associated car park structures, medical centre and conference facilities.
-              </p>
+              </p> */}
             </div>
           </SwiperSlide>
 
-          Slide 2
+          {/* Slide 2 */}
           <SwiperSlide>
             <div className="card border-0">
               <div className="position-relative">
-                <img src="/img/back1.avif" alt="Mashreq Bank" className="img-fluid rounded back" />
-                <div className="position-absolute top-0 start-0 bg-teal text-white px-2 py-1">
+                <img src="/img/Villa 2.jpg" alt="Mashreq Bank" className="img-fluid rounded back" />
+                {/* <div className="position-absolute top-0 start-0 bg-teal text-white px-2 py-1">
                   DUBAI, UAE
                 </div>
                 <div className="view-overlay d-flex justify-content-center align-items-center">
                   <span className="view-text">VIEW PROJECT</span>
-                </div>
+                </div> */}
               </div>
-              <div className="mt-2 fw-bold">MASHREQ BANK HEADQUARTERS, DUBAI</div>
+              {/* <div className="mt-2 fw-bold">MASHREQ BANK HEADQUARTERS, DUBAI</div>
               <p className="text-muted small">
                 Prestigious Headquarters of Mashreq Bank.
-              </p>
+              </p> */}
             </div>
           </SwiperSlide>
 
-          Slide 3
+          {/* Slide 3 */}
           <SwiperSlide>
+            <div className="card border-0">
+              <div className="position-relative">
+                <img src="/img/Villa 3.jpg" alt="H&CO Building" className="img-fluid rounded back" />
+                {/* <div className="position-absolute top-0 start-0 bg-teal text-white px-2 py-1">
+                  DOUALA, CAMEROON
+                </div>
+                <div className="view-overlay d-flex justify-content-center align-items-center">
+                  <span className="view-text">VIEW PROJECT</span>
+                </div> */}
+              </div>
+              {/* <div className="mt-2 fw-bold">H&CO BUILDING, CAMEROON</div>
+              <p className="text-muted small">
+                Luxurious residential project comprising of 30 luxury apartments and penthouses over 12 floors.
+              </p> */}
+            </div>
+          </SwiperSlide>
+
+          {/* Slide 1 */}
+          <SwiperSlide>
+            <div className="card border-0">
+              <div className="position-relative">
+                <img src="/img/Villa 4.jpeg" alt="Administrative City" className="img-fluid rounded back" />
+                {/* <div className="position-absolute top-0 start-0 bg-teal text-white px-2 py-1">
+                  ABOMEY CALAVI – BENIN
+                </div> */}
+                {/* <div className="view-overlay d-flex justify-content-center align-items-center">
+                  <span className="view-text">VIEW PROJECT</span>
+                </div> */}
+              </div>
+              {/* <div className="mt-2 fw-bold">ADMINISTRATIVE CITY, ABOMEY</div>
+              <p className="text-muted small">
+                16 low rise modern office buildings fully fitted out with associated car park structures, medical centre and conference facilities.
+              </p> */}
+            </div>
+          </SwiperSlide>
+
+          {/* Slide 2 */}
+          <SwiperSlide>
+            <div className="card border-0">
+              <div className="position-relative">
+                <img src="/img/Villa 5.jpeg" alt="Mashreq Bank" className="img-fluid rounded back" />
+                {/* <div className="position-absolute top-0 start-0 bg-teal text-white px-2 py-1">
+                  DUBAI, UAE
+                </div> */}
+                {/* <div className="view-overlay d-flex justify-content-center align-items-center">
+                  <span className="view-text">VIEW PROJECT</span>
+                </div> */}
+              </div>
+              {/* <div className="mt-2 fw-bold">MASHREQ BANK HEADQUARTERS, DUBAI</div>
+              <p className="text-muted small">
+                Prestigious Headquarters of Mashreq Bank.
+              </p> */}
+            </div>
+          </SwiperSlide>
+
+          {/* Slide 3 */}
+          {/* <SwiperSlide>
             <div className="card border-0">
               <div className="position-relative">
                 <img src="/img/bbb.png" alt="H&CO Building" className="img-fluid rounded back" />
@@ -197,66 +254,9 @@ const Home = () => {
                 Luxurious residential project comprising of 30 luxury apartments and penthouses over 12 floors.
               </p>
             </div>
-          </SwiperSlide>
-
-          Slide 1
-          <SwiperSlide>
-            <div className="card border-0">
-              <div className="position-relative">
-                <img src="/img/back.jpg" alt="Administrative City" className="img-fluid rounded back" />
-                <div className="position-absolute top-0 start-0 bg-teal text-white px-2 py-1">
-                  ABOMEY CALAVI – BENIN
-                </div>
-                <div className="view-overlay d-flex justify-content-center align-items-center">
-                  <span className="view-text">VIEW PROJECT</span>
-                </div>
-              </div>
-              <div className="mt-2 fw-bold">ADMINISTRATIVE CITY, ABOMEY</div>
-              <p className="text-muted small">
-                16 low rise modern office buildings fully fitted out with associated car park structures, medical centre and conference facilities.
-              </p>
-            </div>
-          </SwiperSlide>
-
-          Slide 2
-          <SwiperSlide>
-            <div className="card border-0">
-              <div className="position-relative">
-                <img src="/img/back1.avif" alt="Mashreq Bank" className="img-fluid rounded back" />
-                <div className="position-absolute top-0 start-0 bg-teal text-white px-2 py-1">
-                  DUBAI, UAE
-                </div>
-                <div className="view-overlay d-flex justify-content-center align-items-center">
-                  <span className="view-text">VIEW PROJECT</span>
-                </div>
-              </div>
-              <div className="mt-2 fw-bold">MASHREQ BANK HEADQUARTERS, DUBAI</div>
-              <p className="text-muted small">
-                Prestigious Headquarters of Mashreq Bank.
-              </p>
-            </div>
-          </SwiperSlide>
-
-          Slide 3
-          <SwiperSlide>
-            <div className="card border-0">
-              <div className="position-relative">
-                <img src="/img/bbb.png" alt="H&CO Building" className="img-fluid rounded back" />
-                <div className="position-absolute top-0 start-0 bg-teal text-white px-2 py-1">
-                  DOUALA, CAMEROON
-                </div>
-                <div className="view-overlay d-flex justify-content-center align-items-center">
-                  <span className="view-text">VIEW PROJECT</span>
-                </div>
-              </div>
-              <div className="mt-2 fw-bold">H&CO BUILDING, CAMEROON</div>
-              <p className="text-muted small">
-                Luxurious residential project comprising of 30 luxury apartments and penthouses over 12 floors.
-              </p>
-            </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper> 
-      </section>*/}
+      </section>
 
     </>
 
