@@ -29,12 +29,12 @@ const MivaanContracting = () => {
       </div>
 
       {/* About Mivaan General */}
-      <section className="container my-3 ">
+      <section className="container my-5 ">
         <div className="row">
           <div className="col"> 
             <h2 className="text-teal fw-bold mb-3">Mivaan Engineering</h2>
-            <p>
-              Mivaan Engineering is a professional Engineering & Consultancy services firm based in Abu Dhabi, UAE. We specialize in delivering Innovative, Sustainable, and Technical solutions across the Oil & Gas, Infrastructure and Industrial Sectors. Our mission is to provide high-quality Consultancy, Engineering Design, and Project Management services that exceed client expectations and adhere to the highest standards of Safety and Quality
+            <p className='justify-text'>
+              Mivaan Engineering is a professional Engineering & Consultancy services firm based in Abu Dhabi, UAE. We specialize in delivering Innovative, Sustainable, and Technical solutions across the Oil & Gas, Infrastructure and Industrial Sectors. Our mission is to provide high-quality Consultancy, Engineering Design, and Project Management services that exceed client expectations and adhere to the highest standards of Safety and Quality.
             </p>
           </div>
         </div>
