@@ -7,7 +7,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 const Navbar = () => {
   const links = [
     { name: "Home", path: "/" },
-    { name: "Mivaan General", path: "/MivaanGeneral" },
+    { name: "Mivaan General Contracting", path: "/MivaanGeneral" },
     { name: "Mivaan Engineering", path: "/MivaanEngineering" },
     { name: "Projects", path: "/projects" },
     { name: "Contact Us", path: "/contact" }
@@ -16,7 +16,12 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm px-4">
       <Link className="navbar-brand d-flex align-items-center" to="/">
-        <h2>Mivaan Group</h2>
+        <img 
+          src="/img/logo.png" // Update path based on actual location
+          alt="Mivaan Group Logo" 
+          height="100" 
+          className="me-2"
+        />
       </Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
         <span className="navbar-toggler-icon"></span>
@@ -26,7 +31,7 @@ const Navbar = () => {
         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
           {links.map(({ name, path }) => (
             <li className="nav-item" key={name}>
-              <Link className="nav-link text-capitalize fw-semibold" style={{ fontSize: '15px' }} to={path}>
+              <Link className="nav-link text-capitalize fw-semibold" style={{ fontSize: '20px' }} to={path}>
                 {name}
               </Link>
             </li>
