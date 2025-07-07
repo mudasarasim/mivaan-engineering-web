@@ -1,4 +1,4 @@
-import './About.css';
+    import './About.css';
 import jgpg from '../assets/Images/g.jpg';
 import image3 from '../assets/Images/image3.png';
 import image4 from '../assets/Images/image4.png';
