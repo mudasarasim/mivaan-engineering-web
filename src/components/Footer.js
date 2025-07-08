@@ -13,7 +13,7 @@ const Footer = () => {
             <h6 className="text-uppercase">Contact Us</h6>
             <h6 className="mt-4 text-uppercase">Connect With Us</h6>
             <div className="d-flex gap-3 mt-2">
-              <a href="#"><FaLinkedin size={24} /></a>
+              <a href=" www.linkedin.com/in/mivaanengineering"><FaLinkedin size={24} /></a>
               <a href="#"><FaYoutube size={24} /></a>
             </div>
           </Col> */}
@@ -44,10 +44,21 @@ const Footer = () => {
 
         <Row>
           <Col>
+            <h6 className="mt-4 text-uppercase">Connect With Us</h6>
+            <div className="d-flex gap-3 mt-2">
+              <a
+                href="https://www.linkedin.com/in/mivaanengineering"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin size={24} />
+              </a>
+              {/* <a href="#"><FaYoutube size={24} /></a> */}
+            </div>
             <p className="mb-1 text-muted">
               Copyright 2025 © Mivaan Group. All rights reserved.
             </p>
-            <p className="text-muted small">
+            <p className="text-muted-bold">
               ISO 9001:2015,ISO14001:2015 & ISO 45001: 2018 Certified company for Mivaan Engineering Consultancy & Mivaan General Contracting
             </p>
           </Col>
