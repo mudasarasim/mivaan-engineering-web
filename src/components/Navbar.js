@@ -8,7 +8,7 @@ const Navbar = () => {
   const links = [
     { name: "Home", path: "/" },
     { name: "Mivaan General Contracting", path: "/MivaanGeneral" },
-    { name: "Mivaan Engineering", path: "/MivaanEngineering" },
+    { name: "Mivaan Engineering Consultancy", path: "/MivaanEngineering" },
     { name: "Projects", path: "/projects" },
     { name: "Contact Us", path: "/contact" }
   ];
@@ -19,8 +19,10 @@ const Navbar = () => {
         <img 
           src="/img/logo.png" // Update path based on actual location
           alt="Mivaan Group Logo" 
-          height="100" 
-          className="me-2"
+          height="90" 
+          style={{
+            margin: '0 0 0 25px',
+          }} 
         />
       </Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
@@ -28,10 +30,10 @@ const Navbar = () => {
       </button>
 
       <div className="collapse navbar-collapse" id="navMenu">
-        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+        <ul className="navbar-nav ms-auto mb-2 mb-lg-0 text-bold">
           {links.map(({ name, path }) => (
             <li className="nav-item" key={name}>
-              <Link className="nav-link text-capitalize fw-semibold" style={{ fontSize: '20px' }} to={path}>
+              <Link className="nav-link text-capitalize fw-bold text-black" style={{ fontSize: '15px' }} to={path}>
                 {name}
               </Link>
             </li>

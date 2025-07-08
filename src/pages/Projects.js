@@ -1,9 +1,24 @@
-import React, { useState } from 'react';
-import './Contact.css'
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Project.css';
 
 const Projects = () => {
+  const projectsByLocation = {
+    'Rahman Island': [
+      { img: '/img/Villa1.jpg' },
+      { img: '/img/Villa 2.jpg' },
+      { img: '/img/Villa 3.jpg' },
+    ],
+    'Saadiyat Lagoons': [
+      { img: '/img/Villa 4.jpeg' },
+      { img: '/img/Villa 5.jpeg' },
+    ],
+  };
+
+  const locations = Object.entries(projectsByLocation);
+
   return (
-   <>
+    <>
       <div className="ms-breadcrumb m-b-5">
         <div className="container-fluid">
           <div className="row">
@@ -19,7 +34,8 @@ const Projects = () => {
                     color: '#fff',
                     padding: '80px 0',
                     textAlign: 'center',
-                  }}>
+                  }}
+                >
                   <h2>Our Projects</h2>
                 </div>
               </div>
@@ -29,70 +45,97 @@ const Projects = () => {
       </div>
 
       <section className="container my-5">
-        <h2 className="text-teal fw-bold mb-4">PROJECTS</h2>      
-        <div className="row g-4">
-          {/* Row 1 - Actual Projects */}
-          {[
-            {
-              img: "/img/Villa1.jpg",
-              // location: "ABOMEY CALAVI – BENIN",
-              // title: "ADMINISTRATIVE CITY, ABOMEY",
-              // desc: "16 low rise modern office buildings fully fitted out with associated car park structures, medical centre and conference       facilities.",
-            },
-            {
-              img: "/img/Villa 2.jpg",
-              // location: "DUBAI, UAE",
-              // title: "MASHREQ BANK HEADQUARTERS, DUBAI",
-              // desc: "Prestigious Headquarters of Mashreq Bank.",
-            },
-            {
-              img: "/img/Villa 3.jpg",
-              // location: "DOUALA, CAMEROON",
-              // title: "H&CO BUILDING, CAMEROON",
-              // desc: "Luxurious residential project comprising of 30 luxury apartments and penthouses over 12 floors.",
-            },
-            {
-              img: "/img/Villa 4.jpeg",
-            },
-            {
-              img: "/img/Villa 5.jpeg",
-            }
-          ].map((project, index) => (
-            <div className="col-md-4" key={index}>
-              <div className="card border-0 h-100">
-                <div className="position-relative">
-                  <img src={project.img} alt={project.title} className="img-fluid rounded back" />
-                  <div className="position-absolute top-0 start-0 bg-teal text-white px-2 py-1">{project.location}</div>
-                  {/* <div className="view-overlay d-flex justify-content-center align-items-center">
-                    <span className="view-text">VIEW PROJECT</span>
-                  </div> */}
-                </div>
-                <div className="mt-2 fw-bold">{project.title}</div>
-                <p className="text-muted small">{project.desc}</p>
-              </div>
-            </div>
-          ))}
-
-          {/* Row 2 & 3 - Dummy Projects */}
-          {/* {[...Array(6)].map((_, index) => (
-            <div className="col-md-4" key={`dummy-${index}`}>
-              <div className="card border-0 h-100">
-                <div className="position-relative">
-                  <img src="/img/bg.jpeg" alt="Dummy Project" className="img-fluid rounded back" />
-                  <div className="position-absolute top-0 start-0 bg-secondary text-white px-2 py-1">DUMMY LOCATION</div>
-                  <div className="view-overlay d-flex justify-content-center align-items-center">
-                    <span className="view-text">VIEW PROJECT</span>
+          <h2 className="text-teal fw-bold mb-4 text-center">PROJECTS</h2>            
+          <div className="row g-4 justify-content-center">
+            {locations.map(([location, images], idx) => (
+              <div className="col-md-6 col-lg-5" key={location}>
+                <div className="card border-0 shadow-sm p-2">
+                  <div
+                    id={`carousel-${idx}`}
+                    className="carousel slide position-relative"
+                    data-bs-ride="carousel"
+                  >
+                    <div className="carousel-inner rounded">
+                      {images.map((project, i) => (
+                        <div className={`carousel-item ${i === 0 ? 'active' : ''}`} key={i}>
+                          <img
+                            src={project.img}
+                            className="d-block mx-auto"
+                            style={{
+                              height: '250px',
+                              objectFit: 'cover',
+                              maxWidth: '80%',
+                              borderRadius: '10px',
+                            }}
+                            alt={`Project ${i + 1}`}
+                          />
+                        </div>
+                      ))}
+                    </div>
+                    
+                    {/* Prev Arrow */}
+                    <button
+                      className="carousel-control-prev"
+                      type="button"
+                      data-bs-target={`#carousel-${idx}`}
+                      data-bs-slide="prev"
+                      style={{
+                        width: '30px',
+                        height: '30px',
+                        top: '50%',
+                        transform: 'translateY(-50%)',
+                        left: '10px',
+                        backgroundColor: 'rgba(0,0,0,0.3)',
+                        borderRadius: '50%',
+                      }}
+                    >
+                      <span
+                        className="carousel-control-prev-icon"
+                        aria-hidden="true"
+                        style={{
+                          width: '20px',
+                          height: '20px',
+                          backgroundSize: '100% 100%',
+                        }}
+                      />
+                      <span className="visually-hidden">Previous</span>
+                    </button>
+                      
+                    {/* Next Arrow */}
+                    <button
+                      className="carousel-control-next"
+                      type="button"
+                      data-bs-target={`#carousel-${idx}`}
+                      data-bs-slide="next"
+                      style={{
+                        width: '30px',
+                        height: '30px',
+                        top: '50%',
+                        transform: 'translateY(-50%)',
+                        right: '10px',
+                        backgroundColor: 'rgba(0,0,0,0.3)',
+                        borderRadius: '50%',
+                      }}
+                    >
+                      <span
+                        className="carousel-control-next-icon"
+                        aria-hidden="true"
+                        style={{
+                          width: '20px',
+                          height: '20px',
+                          backgroundSize: '100% 100%',
+                        }}
+                      />
+                      <span className="visually-hidden">Next</span>
+                    </button>
                   </div>
+                  <h5 className="text-center fw-bold mt-3">{location}</h5>
                 </div>
-                <div className="mt-2 fw-bold">DUMMY PROJECT TITLE</div>
-                <p className="text-muted small">This is a placeholder project description to simulate real data in layout.</p>
               </div>
-            </div>
-          ))} */}
-        </div>
-</section>
-
-   </>
+            ))}
+          </div>
+        </section>
+    </>
   );
 };
 

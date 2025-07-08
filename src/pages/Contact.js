@@ -65,13 +65,13 @@ const ContactUs = () => {
                 <p><i className="fa fa-envelope"></i>info@mivaanengineering.ae</p>
               </div>
             </div>
-            {/* <div className="col-md-4">
+            <div className="col-md-4">
               <div className="contact-box p-4 shadow-sm">
                 <div className="icon mb-2"><i className="fa fa-phone fa-2x"></i></div>
                 <h5>Contact</h5>
-                <p><i className="fa fa-mobile"></i> +971 52 635 3298</p>
+                <p><i className="fa fa-mobile"></i> +971 56 732 0392 </p>
               </div>
-            </div> */}
+            </div>
             <div className="col-md-4">
               <div className="contact-box p-4 shadow-sm">
                 <div className="icon mb-2"><i className="fa fa-map-marker fa-2x"></i></div>

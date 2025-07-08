@@ -34,7 +34,7 @@ const MivaanGeneral = () => {
         <div className="row">
           <div className="col"> 
             <h2 className="text-teal fw-bold mb-4">Mivaan General Contracting</h2>
-            <p>
+            <p style={{ textAlign: "justify" }}>
               Mivaan General Contracting – L.L.C – S.P.C is a professionally managed engineering and contracting firm based in Abu Dhabi, UAE. We specialize in delivering high-quality construction and infrastructure solutions across a range of sectors including residential, commercial, industrial, and infrastructure projects. We pride ourselves on offering end-to-end construction services that adhere to international standards, local regulations, and sustainable practices.
             </p>
           </div>
@@ -89,7 +89,7 @@ const MivaanGeneral = () => {
         <div className="row">
           <div className="col">
             <h2 className="text-teal fw-bold">Health, Safety & Environment (HSE)</h2>
-            <p>
+            <p style={{ textAlign: "justify" }}>
               We are committed to creating and maintaining a safe working environment for our employees, partners, and clients. Mivaan strictly adheres to UAE Labor Laws, Abu Dhabi Municipality (ADM), and other regulating bodies.
             </p>
           </div>
