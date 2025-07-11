@@ -17,14 +17,15 @@ const Home = () => {
         <div className="carousel-inner">
           {[
              { img: '/img/bg.jpeg', text: 'BUILDING\nICONS' },
-               { img: '/img/bbb.png', text: 'BUILDING\nSERVICES' },
-            { img: '/img/bt.jpg', text: 'BUILDING\nFUTURES' },         
+               { img: '/img/bg4.jpg', text: 'BUILDING\nSERVICES' },
+            { img: '/img/bg3.jpg', text: 'BUILDING\nFUTURES' },         
            
           ].map((item, index) => (
             <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''} position-relative`}>
               <div className="hero-image-overlay" />
               <img src={item.img} className="d-block w-100 hero-image" alt="Banner" />
-              <div className="carousel-caption text-start" style={{ left: '12%', top: '33%' }}>
+              <div className="carousel-caption text-start" style={{ left: '12%', top: '30%' }}>
+                <h1 className="display-4 fw-bold text-white">Mivaan Group</h1>
                 <h1 className="display-4 fw-bold text-white">{item.text}</h1>
               </div>
             </div>

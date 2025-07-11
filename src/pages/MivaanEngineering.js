@@ -54,6 +54,7 @@ const MivaanContracting = () => {
               <li>Civil, Structural, MEP, and Instrumentation Engineering</li>
               <li>Environmental & Regulatory Compliance Advisory</li>
               <li>Technical Documentation and Feasibility Studies</li>
+              <li>Consultancy Service For NOC clearances from various Govt. departments</li>
             </ul>
           </div>
 

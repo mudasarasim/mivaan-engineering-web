@@ -50,11 +50,8 @@ const MivaanGeneral = () => {
               <li>General Construction Contracting</li>
               <li>Civil & Structural Works</li>
               <li>Villas, Residential, and Commercial Building Construction</li>
-              <li>Infrastructure & Utility Projects</li>
-              <li>Renovation & Refurbishment Works</li>
               <li>Fit-out and Interior Works</li>
-              <li>NOC Approvals & Permitting Coordination</li>
-              <li>Manpower Supply for Construction Trades</li>
+              
             </ul>
           </div>
           

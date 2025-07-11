@@ -16,7 +16,7 @@
   left: 0;
   width: 100%;
   height: 73vh;
-  background: linear-gradient(to right, rgba(40, 105, 97, 0.7), rgba(0, 0, 0, 0));
+  background: linear-gradient(to right, rgba(29, 30, 30, 0.5), rgba(52, 51, 51, 0));
   z-index: 1;
 }
 

@@ -55,12 +55,10 @@ const Footer = () => {
               </a>
               {/* <a href="#"><FaYoutube size={24} /></a> */}
             </div>
-            <p className="mb-1 text-muted">
+            <p className="mb-1 text-muted mb-3">
               Copyright 2025 © Mivaan Group. All rights reserved.
             </p>
-            <p className="text-muted-bold">
-              ISO 9001:2015,ISO14001:2015 & ISO 45001: 2018 Certified company for Mivaan Engineering Consultancy & Mivaan General Contracting
-            </p>
+          
           </Col>
         </Row>
       </Container>
