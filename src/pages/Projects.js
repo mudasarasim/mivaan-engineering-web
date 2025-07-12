@@ -36,7 +36,7 @@ const Projects = () => {
                     textAlign: 'center',
                   }}
                 >
-                  <h2>Our Projects</h2>
+                  <h2>Projects</h2>
                 </div>
               </div>
             </div>
@@ -45,7 +45,7 @@ const Projects = () => {
       </div>
 
       <section className="container my-5">
-          <h2 className="text-teal fw-bold mb-4 text-center">PROJECTS</h2>            
+          {/* <h2 className="text-teal fw-bold mb-4 text-center">PROJECTS</h2>             */}
           <div className="row g-4 justify-content-center">
             {locations.map(([location, images], idx) => (
               <div className="col-md-6 col-lg-5" key={location}>
