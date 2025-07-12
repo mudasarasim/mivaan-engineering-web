@@ -16,17 +16,17 @@ const Home = () => {
       <div id="heroCarousel" className="carousel slide hero-carousel" data-bs-ride="carousel">
         <div className="carousel-inner">
           {[
-             { img: '/img/bg.jpeg', text: 'BUILDING\nICONS' },
-               { img: '/img/bg4.jpg', text: 'BUILDING\nSERVICES' },
-            { img: '/img/bg3.jpg', text: 'BUILDING\nFUTURES' },         
+             { img: '/img/bg.jpeg', },
+               { img: '/img/bg4.jpg', },
+            { img: '/img/bg3.jpg', },         
            
           ].map((item, index) => (
             <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''} position-relative`}>
               <div className="hero-image-overlay" />
               <img src={item.img} className="d-block w-100 hero-image" alt="Banner" />
               <div className="carousel-caption text-start" style={{ left: '12%', top: '30%' }}>
-                <h1 className="display-4 fw-bold text-white">Mivaan Group</h1>
-                <h1 className="display-4 fw-bold text-white">{item.text}</h1>
+                <h1 className="display-2 fw-bold text-white justify-content-center text-center">Mivaan Group</h1>
+                {/* <h1 className="display-4 fw-bold text-white">{item.text}</h1> */}
               </div>
             </div>
           ))}
@@ -46,37 +46,63 @@ const Home = () => {
             <div className="col">
               <h2 className="text-teal fw-bold">WELCOME</h2>
               <p style={{ textAlign: "justify" }}>
-                Mivaan Group is an ISO 9001:2015, ISO 14001:2015 & ISO 45001: 2018 certified conglomerate headquartered in Abu Dhabi, United Arab Emirates with strategic operations across engineering, construction, contracting, consultancy and real estate services. Since its inception, Mivaan Group has positioned itself as a trusted name in delivering innovative, reliable, and value-driven solutions in the infrastructure and development sectors. 
+                Mivaan Group is an ISO 9001:2015, ISO 14001:2015 & ISO 45001: 2018 certified conglomerate headquartered in Abu Dhabi, United Arab Emirates with strategic operations across engineering, construction, contracting, consultancy and real estate services. Since its inception, Mivaan Group has positioned itself as a trusted name in delivering innovative, reliable, and value-driven solutions in the infrastructure and development sectors.
               </p>
               <p style={{ textAlign: "justify" }}>
-                Guided by a strong leadership team and powered by a skilled workforce, Mivaan Group has steadily expanded its portfolio to include multiple business verticals that support the full lifecycle of construction and development projects from conceptual design and engineering to execution, operations, and post-completion servicesesidential. We focus on
-                delivering quality while maintaining the highest health and safety standards.
+                Guided by a strong leadership team and powered by a skilled workforce, Mivaan Group has steadily expanded its portfolio to include multiple business verticals that support the full lifecycle of construction and development projects from conceptual design and engineering to execution, operations, and post-completion services. We focus on delivering quality while maintaining the highest health and safety standards.
               </p>
               {/* <Button as={Link} to="/about" className="fw-semibold text-teal" style={{backgroundColor:'#286961', color:'white'}}>
                 Find out more about us
               </Button>  */}
             </div>
 
-            {/* Mivaan General Contracting */}
-            <div className="row my-5">
-              <div className="col"> 
-                <h2 className="text-teal fw-bold mb-3">Mivaan General Contracting</h2>
-                <p style={{ textAlign: "justify" }}>
-                  Mivaan General Contracting – L.L.C – S.P.C is a professionally managed engineering and contracting firm based in Abu  Dhabi, UAE. We specialize in delivering high-quality construction and infrastructure solutions across a range of sectors   including residential, commercial, industrial, and infrastructure projects. We pride ourselves on offering end-to-end   construction services that adhere to international standards, local regulations, and sustainable practices.
-                </p>
-              </div>
-          </div>
-
-            {/* Mivaan Engineering  */}
-          <div className="row ">
-            <div className="col"> 
-              <h2 className="text-teal fw-bold mb-3">Mivaan Engineering Consultancy</h2>
+            <div className='row'>
+              <h2 className="text-teal fw-bold">Vision</h2>
               <p style={{ textAlign: "justify" }}>
-                Mivaan Engineering is a professional Engineering & Consultancy services firm based in Abu Dhabi, UAE. We specialize in delivering Innovative, Sustainable, and Technical solutions across the Oil & Gas, Infrastructure and Industrial Sectors. Our mission is to provide high-quality Consultancy, Engineering Design, and Project Management services that exceed client expectations and adhere to the highest standards of Safety and Quality
+                To be a leading multi-disciplinary group in the UAE, known for integrity, quality, and transformative infrastructure solutions.
               </p>
             </div>
-          </div>
 
+            <div className='row'>
+              <h2 className="text-teal fw-bold">Mision</h2>
+              <p style={{ textAlign: "justify" }}>
+                To deliver projects and services that exceed client expectations through engineering excellence, operational efficiency and a strong commitment to sustainability and innovation.
+              </p>
+            </div>
+
+            <div className="container my-3">
+            {/* Section Header */}
+              <div className="row">
+                <div className="col">
+                  <h2 className="bg-teal text-white fw-bold py-3 px-4 rounded">
+                    Key Business Verticals
+                  </h2>
+                </div>
+              </div>
+
+              {/* Business Verticals */}
+              <div className="row mt-4">
+                {/* Mivaan General Contracting */}
+                <div className="col-md-6 mb-4">
+                  <div className="p-4 border rounded h-100">
+                    <h5 className="text-teal fw-bold mb-3">Mivaan General Contracting</h5>
+                    <p style={{ textAlign: "justify" }}>
+                      Mivaan General Contracting – L.L.C – S.P.C is a professionally managed engineering and contracting firm based in Abu Dhabi, UAE. We specialize in delivering high-quality construction and infrastructure solutions across a range of sectors including residential, commercial, industrial, and infrastructure projects. We pride ourselves on offering end-to-end construction services that adhere to international standards, local regulations, and sustainable practices.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Mivaan Engineering Consultancy */}
+                <div className="col-md-6 mb-4">
+                  <div className="p-4 border rounded h-100">
+                    <h5 className="text-teal fw-bold mb-3">Mivaan Engineering Consultancy</h5>
+                    <p style={{ textAlign: "justify" }}>
+                      Mivaan Engineering is a professional Engineering & Consultancy services firm based in Abu Dhabi, UAE. We specialize in delivering Innovative, Sustainable, and Technical solutions across the Oil & Gas, Infrastructure and Industrial Sectors. Our mission is to provide high-quality Consultancy, Engineering Design, and Project Management services that exceed client expectations and adhere to the highest standards of Safety and Quality.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
           {/* <div className="col-md-4">
             <div className="bg-teal text-white p-3">
