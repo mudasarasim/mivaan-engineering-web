@@ -20,7 +20,7 @@ const MivaanContracting = () => {
                     padding: '80px 0',
                     textAlign: 'center',
                   }}>
-                  <h2>Mivaan Engineering</h2>
+                  <h2>Mivaan Engineering Consultancy-L.L.C-S.P.C</h2>
                 </div>
               </div>
             </div>
@@ -32,7 +32,7 @@ const MivaanContracting = () => {
       <section className="container my-5 ">
         <div className="row">
           <div className="col"> 
-            <h2 className="text-teal fw-bold mb-3">Mivaan Engineering Consultancy</h2>
+            <h2 className="text-teal fw-bold mb-3">About Us</h2>
             <p style={{ textAlign: "justify" }}>
               Mivaan Engineering is a professional Engineering & Consultancy services firm based in Abu Dhabi, UAE. We specialize in delivering Innovative, Sustainable, and Technical solutions across the Oil & Gas, Infrastructure and Industrial Sectors. Our mission is to provide high-quality Consultancy, Engineering Design, and Project Management services that exceed client expectations and adhere to the highest standards of Safety and Quality.
             </p>
