@@ -21,7 +21,7 @@ const MivaanGeneral = () => {
                     padding: '80px 0',
                     textAlign: 'center',
                   }}>
-                  <h2>Mivaan General</h2>
+                  <h2>Mivaan General Contracting</h2>
                 </div>
               </div>
             </div>
@@ -33,7 +33,7 @@ const MivaanGeneral = () => {
       <section className="container my-5">
         <div className="row">
           <div className="col"> 
-            <h2 className="text-teal fw-bold mb-4">Mivaan General Contracting</h2>
+            <h2 className="text-teal fw-bold mb-4">About Us</h2>
             <p style={{ textAlign: "justify" }}>
               Mivaan General Contracting – L.L.C – S.P.C is a professionally managed engineering and contracting firm based in Abu Dhabi, UAE. We specialize in delivering high-quality construction and infrastructure solutions across a range of sectors including residential, commercial, industrial, and infrastructure projects. We pride ourselves on offering end-to-end construction services that adhere to international standards, local regulations, and sustainable practices.
             </p>
@@ -85,9 +85,9 @@ const MivaanGeneral = () => {
         {/* Health, Safety & Environment (HSE) */}
         <div className="row">
           <div className="col">
-            <h2 className="text-teal fw-bold">Health, Safety & Environment (HSE)</h2>
+            <h2 className="text-teal fw-bold">Quality, Health, Safety & Environment (QHSE)</h2>
             <p style={{ textAlign: "justify" }}>
-              We are committed to creating and maintaining a safe working environment for our employees, partners, and clients. Mivaan strictly adheres to UAE Labor Laws, Abu Dhabi Municipality (ADM), and other regulating bodies.
+              We are committed to upholding the highest standards of Quality, Health, Safety & Environmental (QHSE) practices for our employees, partners, and client.
             </p>
           </div>
         </div>
