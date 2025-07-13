@@ -57,29 +57,60 @@ const ContactUs = () => {
       {/* Contact and Map Section */}
       <section className="contact-section py-5">
         <div className="container">
-          <div className="row justify-content-center  text-center mb-5">
-            <div className="col-md-4">
-              <div className="contact-box p-4 shadow-sm">
-                <div className="icon mb-2"><i className="fa fa-envelope fa-2x"></i></div>
-                <h5>Mail</h5>
-                <p><i className="fa fa-envelope"></i>info@mivaanengineering.ae</p>
+          <div className="row justify-content-center text-center mb-5">
+          {/* Mail */}
+          <div className="col-md-3">
+            <div className="contact-box p-4 shadow-sm">
+              <div className="icon mb-2">
+                <i className="fa fa-envelope fa-2x text-dark"></i>
               </div>
-            </div>
-            <div className="col-md-4">
-              <div className="contact-box p-4 shadow-sm">
-                <div className="icon mb-2"><i className="fa fa-phone fa-2x"></i></div>
-                <h5>Contact</h5>
-                <p><i className="fa fa-mobile"></i> +971 56 732 0392 </p>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="contact-box p-4 shadow-sm">
-                <div className="icon mb-2"><i className="fa fa-map-marker fa-2x"></i></div>
-                <h5>Address</h5>
-                <p>Dar Al Salam Building, Abu Dhabi</p>
-              </div>
+              <h5>Mail</h5>
+              <p><i className="fa fa-envelope"></i> info@mivaanengineering.ae</p>
             </div>
           </div>
+
+          {/* Contact */}
+          <div className="col-md-3">
+            <div className="contact-box p-4 shadow-sm">
+              <div className="icon mb-2">
+                <i className="fa fa-phone fa-2x text-dark"></i>
+              </div>
+              <h5>Contact</h5>
+              <p><i className="fa fa-mobile"></i> +971 56 732 0392 </p>
+            </div>
+          </div>
+
+          {/* Address */}
+          <div className="col-md-3">
+            <div className="contact-box p-4 shadow-sm">
+              <div className="icon mb-2">
+                <i className="fa fa-map-marker fa-2x text-dark"></i>
+              </div>
+              <h5>Address</h5>
+              <p>Dar Al Salam Building, Abu Dhabi</p>
+            </div>
+          </div>
+
+          {/* LinkedIn */}
+          <div className="col-md-3">
+            <div className="contact-box p-4 shadow-sm">
+              <div className="icon mb-2">
+                <i className="fab fa-linkedin fa-2x text-dark"></i>
+              </div>
+              <h5 className="fw-bold text-dark">Connect with us</h5>
+              <p>
+                <a
+                  href="https://www.linkedin.com/in/mivaanengineering/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="linkedin-link text-decoration-none"
+                >
+                  Visit our LinkedIn →
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
 
           <div className="row align-items-stretch">
             {/* <div className="col-lg-6 mb-4">
