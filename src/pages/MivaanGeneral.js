@@ -35,7 +35,7 @@ const MivaanGeneral = () => {
           <div className="col"> 
             <h2 className="text-teal fw-bold mb-4">About Us</h2>
             <p style={{ textAlign: "justify" }}>
-              Mivaan General Contracting – L.L.C – S.P.C is a professionally managed engineering and contracting firm based in Abu Dhabi, UAE. We specialize in delivering high-quality construction and infrastructure solutions across a range of sectors including residential, commercial, industrial, and infrastructure projects. We pride ourselves on offering end-to-end construction services that adhere to international standards, local regulations, and sustainable practices.
+              Mivaan General Contracting is a professionally managed engineering and contracting firm based in Abu Dhabi, UAE. We specialize in delivering high-quality construction and infrastructure solutions across a range of sectors including residential, commercial, industrial, and infrastructure projects. We pride ourselves on offering end-to-end construction services that adhere to international standards, local regulations, and sustainable practices.
             </p>
           </div>
         </div>
