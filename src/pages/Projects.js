@@ -4,7 +4,7 @@ import './Project.css';
 
 const Projects = () => {
   const projectsByLocation = {
-    'Rahman Island': [
+    'Ramhan Island': [
       { img: '/img/Villa1.jpg' },
       { img: '/img/Villa 2.jpg' },
       { img: '/img/Villa 3.jpg' },
