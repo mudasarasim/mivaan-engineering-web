@@ -20,7 +20,7 @@ const MivaanContracting = () => {
                     padding: '80px 0',
                     textAlign: 'center',
                   }}>
-                  <h2>Mivaan Engineering Consultancy-L.L.C-S.P.C</h2>
+                  <h2>Mivaan Engineering Consultancy</h2>
                 </div>
               </div>
             </div>
