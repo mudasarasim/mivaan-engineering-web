@@ -87,7 +87,7 @@ const Home = () => {
                   <div className="p-4 border rounded h-100">
                     <h5 className="text-teal fw-bold mb-3">Mivaan General Contracting</h5>
                     <p style={{ textAlign: "justify" }}>
-                      Mivaan General Contracting – L.L.C – S.P.C is a professionally managed engineering and contracting firm based in Abu Dhabi, UAE. We specialize in delivering high-quality construction and infrastructure solutions across a range of sectors including residential, commercial, industrial, and infrastructure projects. We pride ourselves on offering end-to-end construction services that adhere to international standards, local regulations, and sustainable practices.
+                      Mivaan General Contracting is a professionally managed engineering and contracting firm based in Abu Dhabi, UAE. We specialize in delivering high-quality construction and infrastructure solutions across a range of sectors including residential, commercial, industrial, and infrastructure projects. We pride ourselves on offering end-to-end construction services that adhere to international standards, local regulations, and sustainable practices.
                     </p>
                   </div>
                 </div>
