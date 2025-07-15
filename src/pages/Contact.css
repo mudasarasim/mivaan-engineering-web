@@ -190,6 +190,11 @@
   }
 }
 
+.contact-box .icon i,
+.contact-box h5 {
+  color: #0077b5 !important;
+}
+
 .linkedin-link {
   color: #000 !important;
   text-decoration: none;
